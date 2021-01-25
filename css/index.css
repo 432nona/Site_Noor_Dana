@@ -1,0 +1,441 @@
+
+@font-face{
+  font-family: "myFont";
+  src: url("../html/Secret\ Winter.ttf")
+}
+/***************************************************CECI EST LE HEADER******************************************************/
+  html {
+    background-color: white;
+    font-size: 62.5%;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.svg') no-repeat center fixed;
+    background-size: 1500px;
+    
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+  }
+  
+  .title-group {
+    text-align: center;
+  }
+ 
+  .title-group-top {
+    font-family: "myFont", sans-serif;
+    display: block;
+  }
+  
+  .title-group-main {
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: scale(0.95, 1);
+  }
+ 
+  header {
+   
+    background: url(../images/fond.svg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover;   
+  }
+  
+  .header-top {
+    padding-top: 20px;
+    
+  }
+  
+  
+  .header-menu {
+    font-size: 1.4em;
+    list-style: none;
+    float: center;   
+  }
+  
+  ul.header-menu li {
+    display: inline-block;
+    margin-right: 52px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 7px;  
+  }
+ 
+  
+  ul.header-menu li:hover {
+    border-color: white;
+    color: white;
+  }
+  
+  header .title-group {
+    margin: 135px 180px 0 180px;
+  }
+  
+  header .title-group-top {
+    margin-bottom: 25px;
+    font-size: 7.2em;
+  }
+  
+  header .title-group-main {
+    font-size: 15em;
+    line-height: 140px;
+  }
+  
+  .header-menu-sprite {
+    background-image: url(https://i.lensdump.com/i/83Op13.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  
+  .sprite-cart {
+    width: 18px;
+    height: 15px;
+    background-position: -5px -5px;
+  }
+  
+  .sprite-search {
+    width: 18px;
+    height: 18px;
+    background-position: -33px -5px;
+  }
+  
+  .header-button {
+    outline: 3px solid white;
+    outline-offset: -3px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.4em;
+    margin: 50px auto 155px auto;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .header-button:hover {
+    color: black;
+    outline-color: black;
+    text-decoration: none;
+  }
+  
+  .header-slider {
+    counter-reset: item;
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  
+  .header-slider li:before {
+    content: "0" counter(item) "  ";
+    counter-increment: item;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-top: 3px solid transparent;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+  
+  .header-slider li:hover {
+    opacity: 1;
+  }
+/***************************************************CECI EST LE HEADER******************************************************/
+/***************************************************UN PEU PLUS SUR NOUS****************************************************/
+  .about-us {
+    color: black;
+  }
+  .about-us .title-group {
+    margin-top: 90px;
+  }
+  
+  .about-us .title-group-top {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us .title-group-main {
+    font-size: 30px;
+  }
+  
+  .about-us .title-group:after {
+    margin-top: 31px;
+  }
+  
+  .about-us .card-presentation{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ 
+  
+/***************************************************UN PEU PLUS SUR NOUS****************************************************/ 
+/***************************************************PHOTOS PRODUITS*********************************************************/ 
+  .about-us .images-group {
+    margin-bottom: 110px;
+  }
+  
+  .about-us .images-group [class^="images-group-child"] {
+    width: 31.4%;
+    height: 250px;
+    float: left;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .about-us .image-hover {
+    display: none;
+  }
+  
+  .image-hover p {
+    display: block;
+  }
+  
+  .about-us [class^="images-group-child"]:hover .image-hover {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    z-index: 1;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    display: inherit;
+  }
+  
+
+
+.title-discover {
+    text-align: center;
+  }
+  
+.title-discover-top {
+    font-family: "MyFont";
+    display: block;
+    font-size: 50px;
+
+
+  }
+
+.images-group-child1
+{
+    display: flex;
+    justify-content: space-around;
+    top :-70px;
+}
+
+.images-group-child2
+  {
+    display: flex;
+    justify-content:space-around;
+    top :-70px;
+  }
+
+.images-group-child3
+  {
+    display: flex;
+    justify-content: space-around;
+    top :-70px;
+
+  }
+
+  
+  .about-us .images-group .images-group-child1:hover .image-hover {
+    background: grey;
+    opacity: 70%;
+    height:300px ;
+    width: 400px;
+    left:30px;
+    top: -20px;
+      
+  
+  }
+  
+  .about-us .images-group .images-group-child2:hover .image-hover {
+    background: linear-gradient(
+        rgba(254, 183, 197, 0.9),
+        rgba(253, 231, 233, 0.9)
+      )
+  }
+  
+  .about-us .images-group .images-group-child3:hover .image-hover {
+    background: linear-gradient(
+        rgba(254, 183, 197, 0.9),
+        rgba(253, 231, 233, 0.9)
+      )
+  }
+
+
+/***************************************************PHOTOS PRODUITS*********************************************************/   
+/***************************************************BLOG 1 COMPO************************************************************/ 
+  
+  .title-blog-main {
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: scale(0.95, 1);
+    font-size: 30px
+  }
+
+  .blog1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 50px;
+ 
+  }
+
+  .blog1 img {
+    width: 40%;
+    height: 550px;
+   
+  }
+
+
+.titretexte { 
+width: 50% }
+  .blog2 {display: flex;
+      justify-content: flex-end;
+
+    margin-top: 50px;
+  }
+
+  .title-blog-text1 {
+    font-family: "myFont";
+    display: block;
+    font-size: 30px;}
+
+  .blogtext1 {
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    line-height: 1.9em;
+    text-align: justify;
+    margin: 36px auto 95px auto;
+    width: 65%;
+    display: block;
+    margin: 30px;
+  }
+/***************************************************BLOG 1 COMPO************************************************************/ 
+/***************************************************BLOG 2 COMPO************************************************************/ 
+  .blog2 {display: flex;
+      justify-content: space-around;
+      align-items: center; 
+
+
+    margin-top: 50px;
+  }
+
+  .blog2 img {
+    width: 40%;
+    height: 600px;
+  }
+
+
+.titretexte2 { 
+width: 50% }
+  .blog2 {display: flex;
+      justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .title-blog-text2 {
+    font-family: "myFont", sans-serif;
+    display: block;
+    font-size: 30px;}
+
+  .blogtext2 {
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    line-height: 1.9em;
+    text-align: justify;
+    margin: 36px auto 95px auto;
+    width: 65%;
+    display: block;
+    margin: 30px;
+  }
+/***************************************************BLOG 2 COMPO************************************************************/   
+/***************************************************FORMULAIRE**************************************************************/  
+.facts {
+    background: #77836A;
+  }
+
+.title-contact {
+    text-align: center;
+  }
+  
+  .title-contact after {
+    content: "";
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 3px solid #77836A;
+  }
+  
+  .title-contact-top {
+    font-family: "myFont", sans-serif;
+    display: block;
+    font-size: 50px;
+  }
+  
+  .title-contact-main {
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: scale(0.95, 1);
+    font-size: 30px
+  }
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #77836A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #77836A;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #77836A;
+  padding: 20px;
+}
+
+
+.imagesend { display: flex;
+  justify-content: space-around;
+ }
+/***************************************************DROITS Réservés************************************************************/ 
+.copy {text-align: center;
+color :black;
+
+}
+
+
