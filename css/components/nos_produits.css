@@ -1,0 +1,51 @@
+@font-face{
+    font-family: "myFont";
+    src: url("../html/Secret\ Winter.ttf")
+ }
+
+/**********************************BODY**********************************************/ 
+
+/**********************************BODY**********************************************/ 
+
+/**********************************CARDS********************************************/
+.class-cards {
+  display:flex;
+  justify-content: space-around;
+}
+/**********************************CARDS********************************************/    
+
+@media  screen and (max-width: 600px) {
+  body,html {
+    margin: 0;
+    padding: 0;
+    background: url('../images/fond_test_3.png') fixed;
+  }
+  .header-top-overflow{
+    padding-top: 10px; 
+  }
+
+  .header-menu{
+    font-size: 0.5em;
+    list-style: none;
+    text-align:left;
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-contact-top {
+    font-family: "myFont", sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .class-cards {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 12px;
+    margin-right: 5px;  
+    
+  }
+
+}
