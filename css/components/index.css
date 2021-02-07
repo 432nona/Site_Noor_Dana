@@ -1,16 +1,13 @@
 
 /*******************Composants CSS**********************/
 
-@import url('components/avis.css');
-@import url('components/contact.css');
-@import url('components/nos_produits.css');
 
 /*******************Composants CSS**********************/
 
 
 @font-face{
   font-family: "myFont";
-  src: url("../html/Secret\ Winter.ttf")
+  src: url('../../html/Secret\ Winter.ttf')
 }
 
 
@@ -29,7 +26,7 @@
   html {
     margin: 0;
     padding: 0;
-    background: url('../images/fond_test_3.png') no-repeat center fixed;
+    background: url('../../images/fond_test_3.png') no-repeat center fixed;
     background-size: 1800px;  
     
   }
@@ -63,7 +60,7 @@
  
   header {
    
-    background: url(../images/fond_rose.svg) no-repeat center fixed; 
+    background: url(../../images/fond_rose.svg) no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover;    
   }
@@ -480,13 +477,13 @@ input[type=submit]:hover {
   body,html {
     margin: 0;
     padding: 0;
-    background: url('../images/fond_test_3.png') fixed;
-    background-color: lightcoral;
+    background: url('../../images/fond_test_3.png') fixed;
+    
     
   }
 
   header {
-    background: url(../images/fond_rose.svg) no-repeat fixed ; 
+    background: url('../../images/fond_rose.svg') no-repeat fixed ; 
     background-size: cover;   
   }
 

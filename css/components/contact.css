@@ -1,15 +1,7 @@
 @font-face{
     font-family: "myFont";
-    src: url("../html/Secret\ Winter.ttf")
+    src: url('../../html/Secret\ Winter.ttf')
   }
-
-
-
-
-
-
-
-
 /**********************************FORMULAIRE****************************************/ 
 
 
@@ -81,7 +73,7 @@ input[type=submit] {
           body,html {
             margin: 0;
             padding: 0;
-            background: url('../images/fond_test_3.png') fixed;
+            background: url('../../images/fond_test_3.png') fixed;
           }
 
           .header-top-overflow{

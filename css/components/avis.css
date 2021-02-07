@@ -1,6 +1,7 @@
 @font-face{
     font-family: "myFont";
-    src: url("../html/Secret\ Winter.ttf")
+    
+    src: url('../../html/Secret\ Winter.ttf')
   }
 
 /**********************************HEADER********************************************/ 
