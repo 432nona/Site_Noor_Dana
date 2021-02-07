@@ -78,48 +78,46 @@ input[type=submit] {
  /**********************************FORMULAIRE****************************************/ 
 /**********************************Responsive Iphone X********************************/ 
  @media  screen and (max-width: 600px) {
-  body,html {
-    margin: 0;
-    padding: 0;
-    background: url('../images/fond_test_3.png') fixed;
-  }
+          body,html {
+            margin: 0;
+            padding: 0;
+            background: url('../images/fond_test_3.png') fixed;
+          }
 
-  .header-top-overflow{
-    padding-top: 10px; 
-  }
+          .header-top-overflow{
+            padding-top: 10px; 
+          }
 
-  .header-menu{
-    font-size: 0.5em;
-    list-style: none;
-    text-align:left;
-    white-space:nowrap;
-    display: flex;
-    justify-content: space-between;
-  }
+          .header-menu{
+            font-size: 0.5em;
+            list-style: none;
+            text-align:left;
+            white-space:nowrap;
+            display: flex;
+            justify-content: space-between;
+          }
 
-  .title-contact-top {
-    font-family: "myFont", sans-serif;
-    display: block;
-    text-align: center;
-    font-size: 25px;
-  }
-  
-  .title-contact-main {
-    font-weight: bold;
-    text-transform: uppercase;
-    transform: scale(0.95, 1);
-    font-size: 10px;
-  }
+          .title-contact-top {
+            font-family: "myFont", sans-serif;
+            display: block;
+            text-align: center;
+            font-size: 25px;
+          }
+          
+          .title-contact-main {
+            font-weight: bold;
+            text-transform: uppercase;
+            transform: scale(0.95, 1);
+            font-size: 10px;
+          }
 
-  .container {
-    border-radius: 50px;
-    background-color: #77836A;
-    width: 30%;
-    height: 700px;
-    margin-left:50px;
-  }
-
-
+          .container {
+            border-radius: 50px;
+            background-color: #77836A;
+            width: 30%;
+            height: 700px;
+            margin-left:50px;
+          }
 }
 
 /**********************************Responsive Iphone X********************************/ 

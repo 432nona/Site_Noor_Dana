@@ -323,7 +323,8 @@
   .blog1 img {
     width: 40%;
     height: 550px;
-    margin-top:250px;
+    margin-top:300px;
+    margin-left: 80px;
    
   }
 
@@ -397,6 +398,7 @@ width: 50% }
   }
 /***************************************************BLOG 2 COMPO************************************************************/   
 /***************************************************FORMULAIRE**************************************************************/  
+
 .facts {
     background: #77836A;
   }
@@ -479,6 +481,7 @@ input[type=submit]:hover {
     margin: 0;
     padding: 0;
     background: url('../images/fond_test_3.png') fixed;
+    
   }
 
   header {
@@ -591,44 +594,6 @@ input[type=submit]:hover {
  /*blog 1*/ 
 /****************changer le titre ************************************/
 
-/*
-
-  .blog1 img {
-    width: 300px;
-    height: 300px;
-    margin-top: -00px;
-    margin-left: 180px;
-   
-  }
-
-  .title-compo .title-blog-text1 {
-    margin-left: -420px;
-    margin-top: -300px;
-    white-space:pre;
-    font-size: 18px;
-    
-  }
-
-  .titretexte 
-  { 
-    width: 50% 
-  }
-
-  
-
-
-.text .blogtext1 {
-    color: #999999;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.2em;
-    line-height: 1.9em;
-    text-align: justify;
-    width: 160%;
-    display: block;
-    margin-left:-300px;
-    margin-top: 300px;
-  }
-*/
 
 .blog1 {
   display: flex;

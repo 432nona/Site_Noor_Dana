@@ -1,0 +1,163 @@
+@font-face{
+    font-family: "myFont";
+    src: url("../html/Secret\ Winter.ttf")
+  }
+
+/**********************************BODY**********************************************/ 
+body{
+  background-image: url(../images/fond_test_3.png);
+}
+/**********************************BODY**********************************************/ 
+/**********************************HEADER********************************************/ 
+
+html {
+  background-color: black;
+  font-size: 62.5%;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: url('../images/fond_test_3.png') no-repeat center fixed;
+  background-size: 1800px; 
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.title-group {
+  text-align: center;
+}
+
+.title-group-top {
+  font-family: "myFont", sans-serif;
+  display: block;
+}
+
+.title-group-main {
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: scale(0.95, 1);
+}
+
+
+.header-top {
+  padding-top: 20px;
+  
+}
+
+
+.header-menu {
+  font-size: 1.4em;
+  list-style: none;
+  float: center;   
+}
+
+ul.header-menu li {
+  display: inline-block;
+  margin-right: 52px;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 7px;  
+}
+
+
+/**********************************HEADER********************************************/
+/**********************************TITLE*********************************************/ 
+
+.title-contact {
+  text-align: center;
+  
+}
+
+.title-contact-top {
+  font-family: "myFont", sans-serif;
+  display: block;
+  font-size: 50px;
+}
+/**********************************TITLE*********************************************/  
+/**********************************AVIS*********************************************/  
+.avis-client .avis-1{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.avis-client .avis-2{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+/**********************************AVIS*********************************************/  
+@media  screen and (max-width: 600px) {
+  body,html {
+    margin: 0;
+    padding: 0;
+    background: url('../images/fond_test_3.png') fixed;
+  }
+
+  .header-top-overflow{
+    padding-top: 10px; 
+  }
+
+  .header-menu{
+    font-size: 0.5em;
+    list-style: none;
+    text-align:left;
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-contact-top {
+    font-family: "myFont", sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .title-contact-main {
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: scale(0.95, 1);
+    font-size: 10px;
+  }
+
+
+
+.avis-client .avis-1 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 250px;  
+  }
+
+
+  .avis-client .avis-2 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 650px;
+  
+    
+  }
+
+
+}
