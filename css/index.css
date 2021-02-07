@@ -481,6 +481,7 @@ input[type=submit]:hover {
     margin: 0;
     padding: 0;
     background: url('../images/fond_test_3.png') fixed;
+    background-color: lightcoral;
     
   }
 
